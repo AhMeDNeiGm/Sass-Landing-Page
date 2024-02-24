@@ -1,0 +1,39 @@
+.home {
+  height: 650px;
+  background-image: url(../../images/slide-medical-1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: $white-color;
+  .text--home {
+    h1 {
+      margin-bottom: 15px;
+    }
+    h5 {
+      margin-bottom: 15px;
+    }
+    h6 {
+      text-decoration: underline;
+    }
+  }
+}
+.home--service {
+  margin-top: -100px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  .fr {
+    background-color: $secondry-color;
+  }
+  .sc {
+    background-color: $secondrywhite-color;
+  }
+  .th {
+    background-color: $secondry-color;
+  }
+  .fo {
+    background-color: $primary-color;
+  }
+}

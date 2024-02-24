@@ -1,0 +1,28 @@
+.department {
+  font-style: $main-font;
+  // margin: $section-margin;
+  .titles {
+    margin-bottom: 40px;
+  }
+  // // padding: 10px;
+  .card {
+    width: 30%;
+  }
+
+  &__title {
+    margin-bottom: 35px;
+  }
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  &__btn {
+    display: flex;
+    justify-content: center;
+    .btn {
+      position: relative;
+      top: 20px;
+    }
+  }
+}

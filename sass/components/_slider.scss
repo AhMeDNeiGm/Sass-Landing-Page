@@ -1,0 +1,14 @@
+.slider {
+  overflow: hidden;
+  width: 100%;
+  height: 650px;
+  position: relative;
+//   background-image: url(../../images/slide-medical-1.jpg);
+}
+
+.slide {
+  width: 100%;
+  height: 650px;
+  float: left;
+  @include transition(all 0.3s ease-in-out);
+}

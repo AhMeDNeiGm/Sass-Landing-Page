@@ -1,0 +1,11 @@
+@mixin eleHover($x: $black-color, $y: $white-color) {
+  background-color: $x;
+  color: $y;
+}
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -moz-transition: $property;
+  -ms-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}

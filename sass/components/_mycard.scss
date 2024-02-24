@@ -1,0 +1,86 @@
+.card {
+  font-family: $main-font;
+  width: 18rem;
+  &--home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $light-font;
+    font-size: 14px;
+    height: 100px;
+    width: 25%;
+    i {
+      font-size: 30px;
+      padding: 25px;
+    }
+  }
+  &--icon {
+    display: flex;
+    &__img {
+      margin-right: 20px;
+    }
+    &__text {
+      h3 {
+        color: $secondry-color;
+        margin-bottom: 12px;
+      }
+      p {
+        color: $dark-font;
+        // width: 50%;
+      }
+    }
+  }
+  &--doc {
+    border: 1px solid $light-font;
+
+    &__img {
+      margin-bottom: 5px;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      h2 {
+        color: $black-color;
+        margin-top: 5px;
+      }
+      p {
+        color: $dark-font;
+        width: 70%;
+      }
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+  &--res {
+    height: 175px;
+    width: 350px;
+    border: 1px solid $light-font;
+    &__img {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 40px 20px;
+      h3 {
+        color: $black-color;
+        margin: 10px 0px;
+      }
+      p {
+        color: $dark-font;
+        // width: 80%;
+      }
+    }
+  }
+}

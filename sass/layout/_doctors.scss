@@ -1,0 +1,39 @@
+.doctors {
+  margin: $section-margin;
+  .titles {
+    margin-bottom: 30px;
+    font-family: $main-font;
+  }
+  &__row {
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    margin: 0 10px;
+    &--icon__text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: all 0.3s ease-in-out;
+    }
+    img {
+      transition: all 0.3s ease-in-out;
+    }
+    .card--icon__img {
+      overflow: hidden;
+    }
+    .card--icon__text {
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+      color: white;
+      background-color: $secondry-color;
+      h2 {
+        color: white;
+      }
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

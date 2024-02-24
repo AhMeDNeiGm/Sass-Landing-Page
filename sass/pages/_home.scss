@@ -1,0 +1,9 @@
+.section-bgcolor {
+  background-color: $section-gray;
+  // height: 500px;
+  &__test {
+    background-color: $primary-color;
+  }
+}
+
+

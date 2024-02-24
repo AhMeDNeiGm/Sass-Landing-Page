@@ -1,0 +1,26 @@
+.footer {
+  background-color: $footer-bg;
+  color: $light-font;
+  height: 300px;
+  &__divs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    div {
+      width: 180px;
+    }
+  }
+  &__span {
+    color: $dark-font;
+    span {
+        margin-bottom   : 10px;
+    }
+  }
+  h3 {
+    margin-bottom: 30px;
+  }
+  &__icons {
+    display: flex;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+@import "abstract/variables";
+@import "abstract/mixins";
+
+@import "vendors/scss/fontawesome.scss";
+@import "vendors/scss/solid.scss";
+@import "vendors/scss/brands.scss";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "layout/home";
+@import "layout/navbar";
+@import "layout/about";
+@import "layout/department";
+@import "layout/doctors";
+@import "layout/resources";
+@import "layout/insurance";
+@import "layout/testmonials";
+@import "layout/footer";
+
+@import "components/mycard";
+@import "components/buttons";
+@import "components/titles.scss";
+@import "components/insureanceComp";
+
+@import "pages/home.scss";
+
+//abstract => vendor => base => layout => components => pages => themes
